@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Maths Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<center>
+		<h1>The Maths Quiz</h1>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-12 login_div1">
+			<h3>Player 1 Login:</h3>
+			<br>
+			<span><label>Username: </label></span>
+			<input type="text" id="player1_name" class="form-control" placeholder="Player 1's Name" style="width: 75%; border-radius: 50px;">
+		</div>
+		<br>
+		<div class="col-lg-4 col-sm-8 col-xs-12 login_div2">
+			<h3>Player 2 Login:</h3>
+			<br>
+			<span><label>Username: </label></span>
+			<input type="text" id="player2_name" class="form-control" placeholder="Player 2's Name" style="width: 75%; border-radius: 50px;">
+		</div>
+		<br>
+		<button class="btn btn-primary" onclick="addUser();" style="background:yellow; color:black; width: 30%; border-radius: 50px; margin-top: 30px;">Les Play</button>
+	</center>
+</body>
+</html>
